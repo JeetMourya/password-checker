@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Password Strength Checker</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 24px; max-width:600px; margin:auto; }
+    input { width:100%; padding:10px; font-size:16px; }
+    .result { margin-top:12px; font-weight:700; }
+    .hint { color:#666; font-size:14px; margin-top:6px;}
+  </style>
+</head>
+<body>
+  <h1>Password Strength Checker</h1>
+  <p>Type a password and click Check. (Length ≥ 8, number, special !@#$%^&*)</p>
+
+  <input id="pwd" type="password" placeholder="Enter password" />
+  <button id="btn">Check</button>
+
+  <div class="result" id="result"></div>
+  <div class="hint" id="hint"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
